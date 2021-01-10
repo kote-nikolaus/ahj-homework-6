@@ -1,0 +1,108 @@
+body {
+  background-color: #292F36;
+  padding: 10px 20px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #292F36;
+}
+
+h1 {
+  font-size: 40px;
+  color: #F5F5F5;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #F5F5F5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.all-tasks {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #4ECDC4;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.tasks-list {
+  padding: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  background-color: #F5F5F5;
+  list-style-type: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 6px;;
+  text-align: left;
+  margin-bottom: 7px;
+  cursor: grab;
+}
+
+.delete-task {
+  background-color: #F5F5F5;
+  color: #FE5F55;
+  cursor: pointer;
+}
+
+button {
+  background-color: #FE5F55;
+  border: 0;
+  font-weight: 700;
+  color: #F5F5F5;
+  height: 27px;
+}
+
+.add-card-button {
+  width: 27px;
+  display: none;
+}
+
+button:hover {
+  background-color: #F5F5F5;
+  color: #292F36;
+}
+
+.input-group {
+  display: none;
+}
+
+.input-buttons {
+  display: flex;
+}
+
+.input-button {
+  margin-right: 10px;
+}
+
+.task-input {
+  height: 40px;
+  width: 280px;
+  margin-bottom: 10px;
+}
+
+.active {
+  display: block;
+}
+
+.dragged {
+  position: absolute;
+  z-index: 999;
+  pointer-events: none;
+  width: 280px;
+  cursor: grabbing;
+}
+
