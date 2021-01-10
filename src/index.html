@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Task Manager</title>
+</head>
+<body>
+  <body>
+    <h1>Мои задачи</h1>
+     <section class='all-tasks'>
+       <article class='tasks tasks-todo'>
+         <h2>Надо сделать</h2>
+         <ul class='tasks-list tasks-todo-list'>
+         </ul>
+         <div class='input-group'>
+         <textarea type='text' class='task-input' placeholder='Что за задача?'></textarea>
+          <div class='input-buttons'>
+           <button class='input-button add-task-button' type='button'>Сохранить</button>
+           <button class='input-button cancel-button' type='button'>Отменить</button>
+          </div>
+        </div>
+         <button class='add-card-button active' type='button'>+</button>
+       </article>
+
+       <article class='tasks tasks-inprogress'>
+         <h2>Делаю</h2>
+         <ul class='tasks-list tasks-inprogress-list'>
+         </ul>
+         <div class='input-group'>
+           <textarea type='text' class='task-input' placeholder='Что за задача?'></textarea>
+           <div class='input-buttons'>
+            <button class='input-button add-task-button' type='button'>Сохранить</button>
+            <button class='input-button cancel-button' type='button'>Отменить</button>
+           </div>
+         </div>
+         <button class='add-card-button active' type='button'>+</button>
+       </article>
+
+       <article class='tasks tasks-done'>
+         <h2>Сделала</h2>
+         <ul class='tasks-list tasks-done-list'>
+         </ul>
+         <div class='input-group'>
+           <textarea type='text' class='task-input' placeholder='Что за задача?'></textarea>
+           <div class='input-buttons'>
+            <button class='input-button add-task-button' type='button'>Сохранить</button>
+            <button class='input-button cancel-button' type='button'>Отменить</button>
+           </div>
+         </div>
+         <button class='add-card-button active' type='button'>+</button>
+       </article>
+     </section>
+  </body>
+</body>
+</html>
